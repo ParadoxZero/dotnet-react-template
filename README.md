@@ -77,3 +77,18 @@ your changes work as expected.
 
 Everything available in `appsettings.json` can be overriden by creating envirement variables witht the same name or 
 with `CosmosDb:ConnectionString` like pattern for nested keys.
+
+# Deployment
+Bundled in the template is a workflow to deploy this to Azure Web App. 
+You can make free tier of the web app for development. 
+You can find details here - https://azure.microsoft.com/en-us/products/app-service/web
+
+Connect your github and azure accounts then.
+
+To set deployment configs go to `repo -> settings -> secrets & variables`
+Add the following secrets - 
+```
+AZUREAPPSERVICE_CLIENTID
+AZUREAPPSERVICE_TENANTID
+AZUREAPPSERVICE_SUBSCRIPTIONID
+```
