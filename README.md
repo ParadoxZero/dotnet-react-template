@@ -1,6 +1,7 @@
 # Dotnet + React Template
 
-Get started with your dotnet and react project using this template.
+Get started with your dotnet and react project using this template. This template is made to make it easy to deploy the project to cloud instances 
+without needing seperate client and server instances. No need to complex cors or auth solution. You can club everything together in the dotnet.
 
 ## How to use?
 
